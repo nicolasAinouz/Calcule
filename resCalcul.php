@@ -25,11 +25,11 @@
       </div>";
         }else if ($nombre2 < $nombre1){
             echo "<div class='w3-pale-red w3-hover-shadow w3-center'style='margin:auto 40% auto 40%;'>
-        <p style = font-size:30px;>0</p>
+        <p style = font-size:30px;>Erreur 0 : Nombre 2 supérieur à Nombre1</p>
       </div>";
         }else if ($nombre1 > 100){
             echo "<div class='w3-pale-red w3-hover-shadow w3-center'style='margin:auto 40% auto 40%;'>
-        <p style = font-size:30px;>0</p>
+        <p style = font-size:30px;>Erreur 0 : Nombre1 supérieur à 100</p>
       </div>";
         }else{
             foreach($array as $i){
